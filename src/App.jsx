@@ -42,8 +42,8 @@ function App() {
           <div className='img-after'>
             <img src="./belo.jpg" alt="" />
           </div>
-          <div className='ensaio-desc' >
-            <p className='title'>Festival Feijoada com Samba</p>
+          <div className='ensaio-desc' data-aos="fade-up">
+            <p className='title'>Festival Feijoada Com Samba</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Eventos e Festivais</p>
           </div>
@@ -54,10 +54,10 @@ function App() {
           <div className='img-after duda' >
             <img src="./duda.jpg" alt="" />
           </div>
-          <div className='ensaio-desc'>
+          <div className='ensaio-desc' data-aos="fade-up">
             <p className='title'>Eduarda Bolzan</p>
             <img className='star' src={star} alt="" />
-            <p className='description'>Ensaio pessoal</p>
+            <p className='description'>Ensaio Pessoal</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ function App() {
           <div className='img-after'>
             <img src="./festivalCinema2.jpg" alt="" />
           </div>
-          <div className='ensaio-desc'>
+          <div className='ensaio-desc' data-aos="fade-up">
             <p className='title'>52º Festival de Cinema de Gramado</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Cobertura de Eventos</p>
@@ -76,7 +76,7 @@ function App() {
           <div className='img-after'>
             <img src="./aniversarioLuiza.jpg" alt="" />
           </div>
-          <div className='ensaio-desc'>
+          <div className='ensaio-desc' data-aos="fade-up">
             <p className='title'>20 Anos da Luiza</p>
             <img className='star' src={star} alt="" />
             <p className='description'>Aniversário</p>
@@ -87,10 +87,10 @@ function App() {
           <div className='img-after'>
             <img src="./GiovanaEFernando.jpg" alt="" />
           </div>
-          <div className='ensaio-desc'>
+          <div className='ensaio-desc' data-aos="fade-up">
             <p className='title'>Giovana & Fernando</p>
             <img className='star' src={star} alt="" />
-            <p className='description'>Ensaio de casal</p>
+            <p className='description'>Ensaio de Casal</p>
           </div>
         </div>
       </section>

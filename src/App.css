@@ -73,6 +73,7 @@ img {
   text-align: left;
   font-weight: 500;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .about p {
@@ -80,6 +81,7 @@ img {
   font-size: 0.9rem;
   font-weight: 300;
   line-height: 130%;
+  /* text-wrap: balance; */
 }
 
 .about img {
