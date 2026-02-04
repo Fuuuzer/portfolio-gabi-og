@@ -24,20 +24,23 @@ const Header = () => {
       </div>
       <h1 className='title'>GABRIELLE OREZKO</h1>
       <a href="https://wa.me/5551999231968" target='_blank'><button><img src={whats} alt="" />Contato</button></a>
-      <svg onClick={() => { setMenuActive((prev) => !prev) }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="menu">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-      </svg>
-      {
-        menuActive &&
-        <div className='contact-container'>
-          <div className='contact'>
-            <a target='_blank' href='https://wa.me/+5551999231968'><img className='star' src={star} alt="" />Contato</a>
-          </div>
-          <div className='contact'>
-            <a target='_blank' href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr'><img className='star' src={star} alt="" />Me Siga</a>
-          </div>
+      <div
+        className={`menu ${menuActive ? 'active' : ''}`}
+        onClick={() => setMenuActive(prev => !prev)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div className={`contact-container ${menuActive ? 'active' : ''}`}>
+        <div className='contact'>
+          <a target='_blank' href='https://wa.me/+5551999231968'><img className='star' src={star} alt="" />Contato</a>
         </div>
-      }
+        <div className='contact'>
+          <a target='_blank' href='https://www.instagram.com/gabiozzzz?igsh=MWhqYWw5bzRwaG5jeQ%3D%3D&utm_source=qr'><img className='star' src={star} alt="" />Me Siga</a>
+        </div>
+      </div>
 
 
     </header >
