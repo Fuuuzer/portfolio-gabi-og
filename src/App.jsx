@@ -28,7 +28,7 @@ function App() {
       <Header />
       <main className='container'>
         <div className='about-container'>
-          <div className='about' data-aos="fade-up">
+          <div className='about' >
             <div>
               <h1>Oie :)</h1>
               <p>Sou fotógrafa de Esteio, no Rio Grande do Sul. Trabalho com fotografia de eventos, ensaios e retratos, sempre buscando registrar momentos com leveza, afeto e autenticidade. Acredito que cada imagem carrega uma história e o meu olhar é voltado para transformar essas histórias em memórias cheias de significado.</p>
